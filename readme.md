@@ -1,6 +1,7 @@
 # Course outline
 
 ## What is the course based upon
+
 1. The [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) modules written for the Mozilla Development Network's [Learn web development](https://developer.mozilla.org/en-US/docs/Learn) course
 2. [Eloquent JavaScript](https://eloquentjavascript.net/)
    - It's free!
@@ -9,14 +10,14 @@
 I chose the MDN course because it is well written and has a clear progression. It also includes an embedded code editor in many lessons to help explore what we have just learnt.
 
 When I first set out to learn JavaScript, Eloquent JavaScript (the first edition) was recommeneded to me and I found it a great way to learn. It is now in its third edition and has proven to be a great resource for learners over the years.
-  
+
 ## Goal
 
 The goal is to learn the fundamentals of modern front end web development (with React) so you can build a React project demonstrating what you know. Our time together is split up into three parts:
-  
-  1. HTML & CSS
-  2. JavaScript
-  3. React
+
+1. HTML & CSS
+2. JavaScript
+3. React
 
 We have will cover a lot – especially in the first four weeks. Don't worry if you find you don't understand everything fully. When we get to React this is where we will have an opportunity to build and re-inforce what we have learnt.
 
@@ -52,11 +53,13 @@ I'll be here to mentor and facilitate your learning, but it is up to you to go t
 4. [Document structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 
 #### Exercises
+
 - [Blocks](./01-week/exercises/blocks.md)
 - [Lists](./01-week/exercises/lists.md)
 - [Hyperlinks](./01-week/exercises/links.md)
 
 #### Assignments
+
 1. [Marking up a letter](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter). You can use [this CodeSandbox template](https://codesandbox.io/s/marking-up-a-letter-oijup) to get started.
 
 2. [Structuring a page of content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content). You can use [this CodeSandbox template](https://codesandbox.io/s/structuring-a-page-of-content-5uuo6) to get started.
@@ -66,6 +69,7 @@ I'll be here to mentor and facilitate your learning, but it is up to you to go t
 ### HTML Tables and Forms
 
 #### Prerequisites
+
 _Same as Week 1!_
 
 #### Readings
@@ -78,7 +82,7 @@ _Same as Week 1!_
 6. [Basic form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)
 7. [More input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)
 8. [Even more form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)
-   
+
 #### Assignments
 
 Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8id74) to complete the following assignments:
@@ -96,7 +100,7 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 2. [Gettings started](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
 3. [How is CSS structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 4. [How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
-   
+
 **At this point you are ready for the first assigment.**
 
 5. [Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
@@ -110,7 +114,6 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 12. [Styling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
 13. [Styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
 
-
 #### Assignments
 
 1. [Style a biography](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge). _Fork [this template](https://codesandbox.io/s/css-assignment-1-gcvg9) and complete the assigment._
@@ -121,9 +124,11 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 ### CSS layout and an introduction to JavaScript
 
 #### Prerequisites
+
 1. Create an account on [JSBin](https://jsbin.com/)
 
 #### Readings
+
 1. [Intro to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
 2. [Normal flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
 3. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
@@ -131,19 +136,22 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 5. [Floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
 
 **You are ready for the first assigment!**
- 
+
 1. [Chapter 1](https://eloquentjavascript.net/01_values.html) of Eloquent Javascript
-2.  [Chapter 2](https://eloquentjavascript.net/02_program_structure.html)
+2. [Chapter 2](https://eloquentjavascript.net/02_program_structure.html)
 
 #### Exercises
+
 > Use this [JSBin](https://jsbin.com/yobupun/1/edit?js,console) to complete the exercises
+
 1. [Chapter 2 exercises](https://eloquentjavascript.net/02_program_structure.html#h_TcUD2vzyMe)
    1. Looping a triangle
    2. FizzBuzz
    3. Chessboard
 
 #### Assignments
-1. [Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension). _Fork [this template](https://codesandbox.io/s/css-assignment-layout-bycq4) and complete the assignment.
+
+1. [Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension). \_Fork [this template](https://codesandbox.io/s/css-assignment-layout-bycq4) and complete the assignment.
 
 ---
 
@@ -152,6 +160,7 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 ### JS functions, data structures, and higher order functions
 
 #### Readings
+
 1. [Chapter 3](https://eloquentjavascript.net/03_functions.html)
 2. [Chapter 4](https://eloquentjavascript.net/04_data.html)
 3. [Chapter 5](https://eloquentjavascript.net/05_higher_order.html)
@@ -167,6 +176,7 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 4. [Chapter 6 exercises](https://eloquentjavascript.net/06_object.html#h_TcUD2vzyMe)
 
 #### Assignments
+
 1. [Build a robot](https://eloquentjavascript.net/07_robot.html)
 
 ## Week 6
@@ -187,6 +197,8 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 
 ### Learning Git, Github, and Soft Skills
 
+- [Git & Github](08-week/git.md)
+
 ## Week 8
 
 ### Beginning with React
@@ -202,13 +214,13 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 Taking a libary that's a React component and building an app around it
 
 - [Palette Builder](https://github.com/drwlrsn/palette-builder)
-                                                                                                                                                                                                                                                                              
 
 ## Week 10
 
 ### Can't stop React
 
 [Firebase Demo](https://github.com/drwlrsn/firebase-demo)
+
 - saving data using a serverless solution
 
 ## Week 11
