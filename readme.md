@@ -197,7 +197,7 @@ Use a [CodeSandbox template](https://codesandbox.io/s/html-excercise-template-8i
 
 ### Learning Git, Github, and Soft Skills
 
-- [Git & Github](08-week/git.md)
+- [Git & Github](07-week/git.md)
 
 ## Week 8
 
