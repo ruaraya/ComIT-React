@@ -1,5 +1,7 @@
 # Git & Github
 
+[<- Go Back](first-site.md)
+
 ## Git
 
 > Git is a free and open source **distributed version control system** designed to handle everything from small to very large projects with speed and efficiency.
@@ -16,7 +18,7 @@
   ```
 - To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
 - As the commands might change between operating systems:
-  - [Windows Command Prompt Cheat sheet](http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt)
+  - [Windows Command Prompt Cheat sheet](https://gist.github.com/jonlabelle/e8ba94cd29b8f63fd7dd3c4f95c1d210)
   - [Linux/Mac Bash Cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 - This tutorial uses the Linux/Mac commands (If you use Windows please check the previous guide)
 - You’ve downloaded Git, now what? [Download Git-It](https://github.com/jlord/git-it-electron#what-to-install) to your machine and you’ll get a hands-on tutorial that teaches you to use Git right from your local environment, using commands on real repositories. ![Welcome to Git-It](resources/images/git/git-it.png)
@@ -25,7 +27,7 @@
 
 - To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
 - As the commands might change between operating systems:
-  - [Windows Command Prompt Cheat sheet](http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt)
+  - [Windows Command Prompt Cheat sheet](https://gist.github.com/jonlabelle/e8ba94cd29b8f63fd7dd3c4f95c1d210)
   - [Linux/Mac Bash Cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 - This tutorial uses the Linux/Mac commands (If you use Windows please check the previous guide)
 - Create a folder with the name `nodeyqr`
@@ -127,6 +129,10 @@
 - As we haven't done anything with this file it have an `Untracked` state
 - Also Git gives us some help: `use "git add <file>..." to include in what will be committed`
 
+### Git flow
+
+![Git-Flow](resources/images/git/git-flow.jpg)
+
 ### `git add`
 
 - This command add file/s contents to Git index
@@ -213,7 +219,7 @@
   > On branch master
   > Changes not staged for commit:
   	(use "git add <file>..." to update what will be committed)
-  	(use "git checkout -- <file>..." to discard changes in working directory)
+  	(use "git restore <file>..." to discard changes in working directory)
 
   	modified:   index.html
 
@@ -223,7 +229,7 @@
 - Now we can see a couple of new things going on:
   - Git shows 2 options:
     - We can add the changes we did to index.html to commit them: `(use "git add <file>..." to update what will be committed)`
-    - Also we can checkout the previous index.html version and discard the changes we did: `(use "git checkout -- <file>..." to discard changes in working directory)`
+    - Also we can restore the previous index.html version and discard the changes we did: `(use "git restore <file>..." to discard changes in working directory)`
   - Also now index.html is modified (`modified: index.html`) instead than a new file
 - Go ahead and add this changes
 - Commit the changes and create a new version
@@ -262,7 +268,7 @@
   > On branch master
   > Changes not staged for commit:
   	(use "git add/rm <file>..." to update what will be committed)
-  	(use "git checkout -- <file>..." to discard changes in working directory)
+  	(use "git restore <file>..." to discard changes in working directory)
 
   	deleted:    index.html
 
@@ -272,10 +278,10 @@
 - We can see that we deleted the file
 - Git shows 2 options
   - We can remove the file from git project by running git rm
-  - Or discard the changes running git checkout -- index.html
-- As we don't want to delete the file execute git checkout to get the previous version
+  - Or discard the changes running git restore index.html
+- As we don't want to delete the file execute git restore to get the previous version
   ```bash
-  git checkout -- index.html
+  git restore index.html
   ```
 - If we run git status we'll see that the deleted index.html message is no longer there
 
@@ -687,7 +693,7 @@
 - To sync again with the remote server we can fetch the latest changes
 
   ```bash
-  git fetch origin master
+  git pull origin master
 
   > remote: Counting objects: 3, done.
   > remote: Compressing objects: 100% (2/2), done.
@@ -766,3 +772,7 @@
 - [Github Hello World](https://guides.github.com/activities/hello-world)
 - [Github Guides](https://www.youtube.com/githubguides)
 - [Resources to learn Git](https://try.github.io/)
+
+## Let's Checkout HTML
+
+- [<- Our First Site](first-site.md) - [HTML ->](html.md)
