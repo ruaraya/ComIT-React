@@ -219,8 +219,8 @@ Taking a libary that's a React component and building an app around it
 
 ### Can't stop React
 
-[Firebase Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial)
-[Final code](https://github.com/ruaraya/react-firebase-authentication)
+1. [Firebase Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial)
+2. [Final code](https://github.com/ruaraya/react-firebase-authentication)
 
 - saving data using a serverless solution
 
